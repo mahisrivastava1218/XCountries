@@ -2,7 +2,7 @@ import React,{useEffect, useState}from "react";
  function CountryCard({name,flag,abrr}){
   return(
  <div style={{border:"1px solid gray",justifyContent:"center",borderRadius:"4px",height:"200px",width:"200px",display:"flex",gap:"10px",flexDirection:"column",alignItems:"center"}}>
-     <img style={{width:"100px",height:"100px",objectFit:"contain"}} src={flag} alt={abrr}/>
+     <img style={{width:"100px",height:"100px",objectFit:"contain"}} src={flag} alt={flag}/>
      <div>{name}</div>
      </div>
   )
